@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SineWaveGen_tb_behav" "xil_defaultlib.SineWaveGen_tb" -log "elaborate.log" 

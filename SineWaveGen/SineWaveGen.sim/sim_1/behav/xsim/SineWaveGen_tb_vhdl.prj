@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SineWaveGen.srcs/sources_1/new/bram_sp.vhd" \
+"../../../../SineWaveGen.srcs/sources_1/new/addr_gen.vhd" \
+"../../../../SineWaveGen.srcs/sources_1/new/SineWaveGen.vhd" \
+"../../../../SineWaveGen.srcs/sim_1/new/SineWaveGen_tb.vhd" \
+
+# Do not sort compile order
+nosort
